@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+
+<title>HTML Forms</title>
+</head>
+
+<body>
+	<h2>Fill Out This Form </h2>
+		<form>
+		<div>
+			<label for="fname">First Name:</label>
+			<input type="text" id="fname" name="fname" placeholder="John" required>
+		</div>
+		<br>
+		<div>
+			<label for="sname">Surname:</label>
+			<input type="text" id="sname" name="sname" placeholder="Doe" required>
+		</div>
+		<br>
+		<div>	
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" maxlength="8" required>
+		</div>
+		<br>
+		
+		<div>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" placeholder="recky@yours.com" required>
+		
+		</div>
+		
+		<br>
+		<div>
+			<label for="tel">Telephone Number:</label>
+			<input type="tel" id="tel" name="tel" placeholder="+234 hello">
+		</div>
+		<br>
+		
+		<div>
+			<label for="date">Birthdate</label>
+			<input type="date" id="date" name="date">
+		</div>
+		<br>
+		
+		<div> <label><b>Title:</b></label>
+		
+			<label for="mr">Mr</label>
+			<input type="radio" id="mr" name="title"> 
+			
+			<label for="mrs">Mrs.</label>
+			<input type="radio" id="mrs" name="title">
+			
+			<label for="others">Others.</label>
+			<input type="radio" id="others" name="title">
+		</div>
+		<br>
+		
+		<div>
+			<label for="payment">Payment Method</label>
+			<select type="payment" id="payment">
+				<option value="visa">Visa</option>
+				<option value="Mastercard">Mastercard</option>
+				<option value="verve">Verve</option>
+			</select>
+		</div>
+		<br>
+		
+		<div>
+			<label for="subscribe">Subscribe To Our service</label>
+			<input type="checkbox" id="subscribe" name="subscribe"">
+		</div>
+		
+		<br>
+		<div>
+			<input type="reset">
+		</div>
+		
+		<br>
+		
+		<div>
+			<input type="submit">
+		</div>
+	</form>
+
+</body>
+</html>
